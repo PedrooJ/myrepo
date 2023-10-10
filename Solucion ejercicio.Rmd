@@ -45,4 +45,11 @@ colnames(Animals2)
 commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
 commonAnimals
 ```
+```{r}
+animalsNotInBoth <- setdiff(union(rownames(mammals), rownames(Animals2)), commonAnimals)
+
+length(animalsNotInBoth)
+
+animalsNotInBoth
+```
 

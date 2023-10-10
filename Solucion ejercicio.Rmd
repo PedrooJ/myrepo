@@ -41,4 +41,8 @@ rownames(Animals2)
 colnames(Animals2)
 ```
 
+```{r}
+commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
+commonAnimals
+```
 

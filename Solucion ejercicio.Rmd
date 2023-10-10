@@ -52,4 +52,11 @@ length(animalsNotInBoth)
 
 animalsNotInBoth
 ```
+```{r}
+mammalsNotInBoth <- mammals[rownames(mammals) %in% animalsNotInBoth, ]
+Animals2NotInBoth <- Animals2[rownames(Animals2) %in% animalsNotInBoth, ]
+
+print(mammalsNotInBoth)
+print(Animals2NotInBoth)
+```
 

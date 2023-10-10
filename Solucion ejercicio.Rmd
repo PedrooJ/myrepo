@@ -20,4 +20,18 @@ data("Animals2", package = "robustbase")
 ?mammals
 ?Animals2
 ```
+```{r}
+dim(mammals)
+dim(Animals2)
+
+head(mammals)
+head(Animals2)
+
+tail(mammals)
+tail(Animals2)
+
+str(mammals)
+str(Animals2)
+```
+
 

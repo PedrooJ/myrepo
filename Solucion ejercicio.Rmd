@@ -11,6 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
+library(MASS)
+library(robustbase)
 
+data("mammals", package = "MASS")
+data("Animals2", package = "robustbase")
+
+?mammals
+?Animals2
 ```
 
